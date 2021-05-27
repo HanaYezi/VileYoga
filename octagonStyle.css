@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: forestgreen;
+    margin: 30px
+}
+.OctagonGallery{
+  margin: 10px 50px;
+}
+
+.OctagonGallery img{
+    width: 230px;
+    padding: 50px;
+}
