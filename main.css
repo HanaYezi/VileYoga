@@ -112,7 +112,7 @@ body{
 .slide-1,
 .slide-2,
 .slide-3{
-    @media only screen and (min-device-width: 400px)
+    
     min-height: 80vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 }
@@ -465,32 +465,3 @@ footer .sub-footer p{
 .social-network .social-instagram a i{
     background: #d74980;
 }
-@media only screen and (max-width: 425px) and (min-width: 400px){
-
-    #fusion-slider-132 .tfs-slider .background-image{
-    
-    height: 240px !important;
-    
-    }
-    
-    }
-    
-    @media only screen and (max-width: 375px) and (min-width: 340px){
-    
-    #fusion-slider-132 .tfs-slider .background-image{
-    
-    height: 217px !important;
-    
-    }
-    
-    }
-    
-    @media only screen and (max-width: 320px) and (min-width: 300px){
-    
-    #fusion-slider-132 .tfs-slider .background-image{
-    
-    height: 185px !important;
-    
-    }
-    
-    }
