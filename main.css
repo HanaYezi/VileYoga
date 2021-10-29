@@ -116,16 +116,18 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 }
 .slide-1{
+    max-width: 100%;
     opacity: .7;
- background: url(./img/logo.png) center /cover fixed no-repeat;
+    background: url(./img/logo.png) center /cover fixed no-repeat;
 }
 .slide-2{
+    max-width: 100%;
     opacity: .85;
     background:  url(./img/chants.png) center /cover fixed no-repeat;
    }
 
    .slide-3{
-   
+    max-width: 100%;
     background:  url(./img/ashtanga.png) center /cover fixed no-repeat;
    }
 .no-padding{
