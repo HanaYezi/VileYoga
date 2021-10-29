@@ -112,6 +112,7 @@ body{
 .slide-1,
 .slide-2,
 .slide-3{
+    @media only screen and (min-device-width: 400px)
     min-height: 80vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 }
