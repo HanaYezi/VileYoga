@@ -23,7 +23,7 @@ body{
     color: #fff;
 }
 .site-btn.sb-gradient{
-    color: #fff;
+    color: rgb(2, 3, 10);
     padding: 13px 29px;
     position: relative;
     transition: all 0.4s;
@@ -52,30 +52,30 @@ body{
 }
 /*=========Top bar======*/
 #topbar{
-    background:#fff;
+    background:rgb(255, 255, 255);
     padding: 10px 0;
     border-bottom: 1px solid #eee;
     font-size: 15px;
 }
 #topbar .contact-info a{
     line-height: 1;
-    color:#444;
+    color:rgb(21, 37, 27);
     transition: 0.3s;
 }
 #topbar .contact-info a:hover{
-    color:#0a0d0e;
+    color:#110d03;
 }
 #topbar .contact-info i{
-    color:#111111;
+    color:#0c0c0b;
     padding: 4px;
 }
 #topbar .contact-info .phone-icon{
     padding-left: 20px;
     margin-left: 20px;
-    border-left: 1px solid #010631!important;
+    border-left: 1px solid #020e0f!important;
 }
 #topbar .social-links a{
-    color: #0c0b0c;
+    color: rgb(16, 17, 16);
     padding: 4px 12px;
     display: inline-block;
     line-height: 1;
@@ -83,7 +83,7 @@ body{
     border-left: 1px solid #010631;
 }
 #topbar .social-links a:hover{
-    color: #2d7e48;
+    color: #504c72;
 }
 #topbar .social-links a:first-child{
     border-left: 0;
@@ -92,7 +92,8 @@ body{
 
 /*=======Navbar===========*/
 .bg-color{
-    background: #96b395;
+    background: #738586;
+    font-family: papyrus
 }
 .nav-link{
     color: #000;
@@ -102,7 +103,7 @@ body{
     font-weight: bold;
 }
 .navbar-brand{
-    color: #0f0f0f!important;
+    color: #304350!important;
     font-weight: bold;
     font-size: 40px;
 }
@@ -115,22 +116,21 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 }
 .slide-1{
-    background: linear-gradient(to right, rgba(223, 238, 225, 0.733),
-   rgba(20, 20, 20, 0)), url(./img/logo.png) center /cover fixed no-repeat;
-   };
-
+    opacity: .7;
+ background: url(./img/logo.png) center /cover fixed no-repeat;
+}
 .slide-2{
-    background: linear-gradient(to right, rgb(174, 185, 187),
-   rgba(185, 179, 179, 0)), url(./img/handstand3.png) center /cover fixed no-repeat;
-   };
+    opacity: .85;
+    background:  url(./img/chants.png) center /cover fixed no-repeat;
+   }
 
-.slide-3{
-    background:linear-gradient(to right, rgba(2,14,52,0.9),
-   rgba(216, 218, 224, 0.5)), url(./img/pandan.png) center /cover fixed no-repeat;
+   .slide-3{
+   
+    background:  url(./img/ashtanga.png) center /cover fixed no-repeat;
    }
 .no-padding{
     padding:0;
-
+}
 /*=======End of the Hero Section===========*/
 /*=======about Section======*/
 .section-title{
@@ -152,7 +152,7 @@ body{
     float: left;
     width: 100px;
     height: 100px;
-    border: 1px solid #09d9f5;
+    border: 1px solid #020f11;
     margin-right: 20px;
     border-radius: 50%;
     display: flex;
@@ -161,7 +161,7 @@ body{
 }
 
 .about-icon i{
-    color: #09d9f5;
+    color: #02090a;
     padding-top: 30px;
    
 }
@@ -200,7 +200,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*=============End of About Section===========*/
 /*===========Services Section=========*/
 .section-bg{
-    background: #abd2f736;
+    background: #7b9c9e;
 }
 .services .icon-box{
  padding: 30px;
@@ -458,10 +458,9 @@ footer .sub-footer p{
 .social-network .social-facebook a i{
     background: #3873ae;
 }
-
+.social-network .social-twitter a i{
+    background: #62c6f8;
 }
 .social-network .social-instagram a i{
     background: #d74980;
 }
-
-
